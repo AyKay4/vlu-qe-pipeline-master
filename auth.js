@@ -1,5 +1,4 @@
 function login(username, password) {
-  // 1. Kiểm tra username rỗng
   if (!username || username.trim() === '') {
     throw new Error('Username không được để trống');
   }
