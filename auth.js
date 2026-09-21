@@ -19,7 +19,7 @@ function login(username, password) {
   }
 
   // 5. Kiểm tra thông tin đăng nhập đúng (Happy Path)
-  if (username === 'admin' && password === '9999') {
+  if (username === 'admin' && password === '123') {
     return true;
   }
 
