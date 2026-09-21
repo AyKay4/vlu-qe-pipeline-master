@@ -1,0 +1,14 @@
+{
+  "name": "banking-app-auth-testing",
+  "version": "1.0.0",
+  "description": "Auth module with Smoke and Regression testing gates using Jest",
+  "main": "auth.js",
+  "scripts": {
+    "test": "jest",
+    "test:smoke": "jest auth.smoke.test.js",
+    "test:regression": "jest auth.regression.test.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
